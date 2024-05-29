@@ -1,0 +1,19 @@
+BATCH INFERENCE
+Number of Images Tested: 200
+Image resolution: 1920x1200
+Dataset used: Roboflow, Self Driving Car Image Dataset
+Dataset path: temp_images
+SaaS region/server data:
+AWS_REGION: eu-central-1
+GOOGLE_PROJECT_ID: idyllic-parser-385517
+MICROSOFT_ENDPOINT: https://swissNorthVision-ingyenes.cognitiveservices.azure.com/
+Hardware Information:
+CPU: AMD Ryzen 5 4500U with Radeon Graphics
+RAM: 7.37 GB
+GPU: N/A
+Averaged Results:
+google:
+ Average Inference Time: 42.13 ms
+ Average Upload Time: 332.99 ms
+ Average Image IoU: 0.4721
+ Optimal confidence threshold used: 0.00

@@ -1,0 +1,21 @@
+SEQUENTIAL INFERENCE
+Number of Images Tested: 200
+Image resolution: 1920x1200
+Dataset used: Roboflow, Self Driving Car Image Dataset
+Dataset path: temp_images
+SaaS region/server data:
+Hardware Information:
+CPU: Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz
+RAM: 503.53 GB
+GPU: GPUStatCollection(host=ea1f2deafe1b, [
+  [0] NVIDIA RTX A4000 | 33°C,   0 % |   743 / 16376 MB |
+])
+Averaged Results:
+yolov5:
+ Average Inference Time: 18.46 ms
+ Average Image IoU: 0.5706
+ Optimal confidence threshold used: 0.48
+yolov8:
+ Average Inference Time: 19.61 ms
+ Average Image IoU: 0.5866
+ Optimal confidence threshold used: 0.28

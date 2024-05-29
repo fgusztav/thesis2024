@@ -1,0 +1,34 @@
+SEQUENTIAL INFERENCE
+Number of Images Tested: 200
+Image resolution: 1600x900
+Dataset used: NuImages
+Dataset path: temp_images
+SaaS region/server data:
+AWS_REGION: eu-central-1
+GOOGLE_PROJECT_ID: idyllic-parser-385517
+MICROSOFT_ENDPOINT: https://swissNorthVision-fizetos.cognitiveservices.azure.com/
+Hardware Information:
+CPU: AMD Ryzen 5 4500U with Radeon Graphics
+RAM: 7.37 GB
+GPU: N/A
+Averaged Results:
+google:
+ Average Inference Time: 240.39 ms
+ Average Image IoU: 0.6160
+ Optimal confidence threshold used: 0.00
+azure:
+ Average Inference Time: 326.61 ms
+ Average Image IoU: 0.5517
+ Optimal confidence threshold used: 0.00
+rekognition:
+ Average Inference Time: 525.86 ms
+ Average Image IoU: 0.7205
+ Optimal confidence threshold used: 0.75
+yolov5:
+ Average Inference Time: 718.31 ms
+ Average Image IoU: 0.6019
+ Optimal confidence threshold used: 0.14
+yolov8:
+ Average Inference Time: 745.86 ms
+ Average Image IoU: 0.6295
+ Optimal confidence threshold used: 0.20

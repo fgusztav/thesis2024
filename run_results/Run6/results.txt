@@ -1,0 +1,39 @@
+UPLOAD INFERENCE
+Number of Images Tested: 200
+Image resolution: 1600x900
+Dataset used: NuImages
+Dataset path: temp_images
+SaaS region/server data:
+AWS_REGION: eu-central-1
+GOOGLE_PROJECT_ID: idyllic-parser-385517
+MICROSOFT_ENDPOINT: https://swissNorthVision-ingyenes.cognitiveservices.azure.com/
+Hardware Information:
+CPU: AMD Ryzen 5 4500U with Radeon Graphics
+RAM: 7.37 GB
+GPU: N/A
+Averaged Results:
+google:
+ Average Inference Time: 289.17 ms
+ Average Upload Time: 293.41 ms
+ Average Image IoU: 0.6160
+ Optimal confidence threshold used: 0.00
+azure:
+ Average Inference Time: 318.04 ms
+ Average Upload Time: 288.95 ms
+ Average Image IoU: 0.5517
+ Optimal confidence threshold used: 0.00
+rekognition:
+ Average Inference Time: 443.73 ms
+ Average Upload Time: 174.94 ms
+ Average Image IoU: 0.7205
+ Optimal confidence threshold used: 0.75
+yolov5:
+ Average Inference Time: 599.91 ms
+ Average Upload Time: 0.00 ms
+ Average Image IoU: 0.6019
+ Optimal confidence threshold used: 0.14
+yolov8:
+ Average Inference Time: 635.05 ms
+ Average Upload Time: 0.00 ms
+ Average Image IoU: 0.6295
+ Optimal confidence threshold used: 0.20

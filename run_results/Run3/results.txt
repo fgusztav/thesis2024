@@ -1,0 +1,21 @@
+SEQUENTIAL INFERENCE
+Number of Images Tested: 200
+Image resolution: 800x450
+Dataset used: NuImages
+Dataset path: temp_images
+SaaS region/server data:
+Hardware Information:
+CPU: AMD Ryzen Threadripper PRO 3975WX 32-Cores
+RAM: 503.52 GB
+GPU: GPUStatCollection(host=e37412028494, [
+  [0] NVIDIA GeForce RTX 4090 | 29°C,   0 % |   941 / 24564 MB |
+])
+Averaged Results:
+yolov5:
+ Average Inference Time: 4.68 ms
+ Average Image IoU: 0.6814
+ Optimal confidence threshold used: 0.21
+yolov8:
+ Average Inference Time: 4.26 ms
+ Average Image IoU: 0.7059
+ Optimal confidence threshold used: 0.23
