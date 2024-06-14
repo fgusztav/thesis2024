@@ -6,3 +6,5 @@ This repo contains:
 - all raw results from the runs used in the final analyses in my thesis
 
 The code is in Python Jupyter format while the run results are found in the appropriately named folder.
+
+(Full paper can be requested by contacting me, might also be uploaded here later)
